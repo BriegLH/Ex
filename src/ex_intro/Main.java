@@ -41,11 +41,17 @@ public class Main {
 		TriBulle1.triBulleLignes(tab2Test);
 		System.out.println(Arrays.deepToString(tab2Test));
 		*/
-		int [][] tab2Test = Gentab2.gentab2(3, 5);
+		int [][] tab2Test = Gentab2.gentab2(2, 3);
 		System.out.println(Arrays.deepToString(tab2Test));
-		//TriBulle1.triBulleGlobal(tab2Test);
+		
 		//System.out.println(Arrays.deepToString(tab2Test));
-		Swap.swap2(tab2Test, 0, 3);
+		//System.out.println(tab2Test.length*tab2Test[0].length-1);
+		//System.out.println(tab2Test.length);
+		//System.out.println(tab2Test[0].length-1);
+		//TriBulleGlobal.lire(tab2Test, 4);
+		//System.out.println(TriBulleGlobal.lire(tab2Test, 4));
+		
+		TriBulleGlobal.triBulleGlobal(tab2Test);
 		System.out.println(Arrays.deepToString(tab2Test));
 	}
 
