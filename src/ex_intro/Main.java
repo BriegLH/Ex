@@ -23,19 +23,30 @@ public class Main {
 
 		// Ex16
 
-		int[] tabBulle = { 2, 7, 0, 5, 3, 1, 9 };
+		//int[] tabBulle = { 2, 7, 0, 5, 3, 1, 9 };
 		/*
 		 * System.out.println(Arrays.toString(tabBulle)); Bulle.bulle(tabBulle, 4);
 		 * System.out.println(Arrays.toString(tabBulle));
 		 */
 
 		// Ex 17
-
-		System.out.println(Arrays.toString(tabBulle));
+		/*
+		System.out.println("avant : " + Arrays.toString(tabBulle));
 		TriBulle1.triBulle1(tabBulle);
-		System.out.println(Arrays.toString(tabBulle));
-		System.out.println("Hello github !!!!");
-
+		System.out.println("après : " + Arrays.toString(tabBulle));
+		*/
+		/*
+		int [][] tab2Test = Gentab2.gentab2(3, 5);
+		System.out.println(Arrays.deepToString(tab2Test));
+		TriBulle1.triBulleLignes(tab2Test);
+		System.out.println(Arrays.deepToString(tab2Test));
+		*/
+		int [][] tab2Test = Gentab2.gentab2(3, 5);
+		System.out.println(Arrays.deepToString(tab2Test));
+		//TriBulle1.triBulleGlobal(tab2Test);
+		//System.out.println(Arrays.deepToString(tab2Test));
+		Swap.swap2(tab2Test, 0, 3);
+		System.out.println(Arrays.deepToString(tab2Test));
 	}
 
 }
