@@ -62,7 +62,7 @@ public class Main {
 		*/
 		
 		//Exercice 22
-		
+		System.out.println("test token");
 		
 	}
 
